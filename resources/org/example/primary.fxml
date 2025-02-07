@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="Backround" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="407.0" prefWidth="316.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.PrimaryController">
+   <children>
+      <TextField fx:id="expression" editable="false" layoutX="50.0" layoutY="60.0" prefHeight="26.0" prefWidth="215.0" promptText=" " />
+      <Button fx:id="A" layoutX="49.0" layoutY="104.0" mnemonicParsing="false" onAction="#writingA" prefHeight="26.0" prefWidth="43.0" text="A" />
+      <ComboBox fx:id="choseBase" layoutX="105.0" layoutY="104.0" onAction="#chosingBase" prefHeight="26.0" prefWidth="105.0" />
+      <Button fx:id="B" layoutX="49.0" layoutY="148.0" mnemonicParsing="false" onAction="#writingB" prefHeight="26.0" prefWidth="43.0" text="B" />
+      <Button fx:id="C" layoutX="49.0" layoutY="188.0" mnemonicParsing="false" onAction="#writingC" prefHeight="26.0" prefWidth="43.0" text="C" />
+      <Button fx:id="D" layoutX="49.0" layoutY="228.0" mnemonicParsing="false" onAction="#writingD" prefHeight="26.0" prefWidth="43.0" text="D" />
+      <Button fx:id="E" layoutX="49.0" layoutY="273.0" mnemonicParsing="false" onAction="#writingE" prefHeight="26.0" prefWidth="43.0" text="E" />
+      <Button fx:id="F" layoutX="49.0" layoutY="316.0" mnemonicParsing="false" onAction="#writingF" prefHeight="26.0" prefWidth="43.0" text="F" />
+      <Button fx:id="XORbutton" layoutX="49.0" layoutY="357.0" mnemonicParsing="false" onAction="#writingXOR" prefHeight="26.0" prefWidth="43.0" text="^" />
+      <Button fx:id="ORbutton" layoutX="105.0" layoutY="357.0" mnemonicParsing="false" onAction="#writingOR" prefHeight="26.0" prefWidth="43.0" text="|" />
+      <Button fx:id="MULTbutton" layoutX="105.0" layoutY="316.0" mnemonicParsing="false" onAction="#writingMULT" prefHeight="26.0" prefWidth="43.0" text="*" />
+      <Button fx:id="ANDbutton" layoutX="166.0" layoutY="357.0" mnemonicParsing="false" onAction="#writingAND" prefHeight="26.0" prefWidth="43.0" text="&amp;" />
+      <Button fx:id="NOTbutton" layoutX="223.0" layoutY="357.0" mnemonicParsing="false" onAction="#writingNOT" prefHeight="26.0" prefWidth="43.0" text="~" />
+      <Button fx:id="equals" layoutX="223.0" layoutY="316.0" mnemonicParsing="false" onAction="#calculating" prefHeight="26.0" prefWidth="43.0" text="=" />
+      <Button fx:id="DIVbutton" layoutX="166.0" layoutY="316.0" mnemonicParsing="false" onAction="#writingDIV" prefHeight="26.0" prefWidth="43.0" text="/" />
+      <Button fx:id="PLUSbutton" layoutX="105.0" layoutY="273.0" mnemonicParsing="false" onAction="#writingPLUS" prefHeight="26.0" prefWidth="43.0" text="+" />
+      <Button fx:id="ZERO" layoutX="166.0" layoutY="273.0" mnemonicParsing="false" onAction="#writing0" prefHeight="26.0" prefWidth="43.0" text="0" />
+      <Button fx:id="MINUSbutton" layoutX="223.0" layoutY="273.0" mnemonicParsing="false" onAction="#MINUS" prefHeight="26.0" prefWidth="43.0" text="-" />
+      <Button fx:id="FIVE" layoutX="166.0" layoutY="188.0" mnemonicParsing="false" onAction="#writing5" prefHeight="26.0" prefWidth="43.0" text="5" />
+      <Button fx:id="FOUR" layoutX="105.0" layoutY="188.0" mnemonicParsing="false" onAction="#writing4" prefHeight="26.0" prefWidth="43.0" text="4" />
+      <Button fx:id="NINE" layoutX="223.0" layoutY="228.0" mnemonicParsing="false" onAction="#writing9" prefHeight="26.0" prefWidth="43.0" text="9" />
+      <Button fx:id="EIGHT" layoutX="166.0" layoutY="228.0" mnemonicParsing="false" onAction="#writing8" prefHeight="26.0" prefWidth="43.0" text="8" />
+      <Button fx:id="SEVEN" layoutX="105.0" layoutY="228.0" mnemonicParsing="false" onAction="#writing7" prefHeight="26.0" prefWidth="43.0" text="7" />
+      <Button fx:id="SIX" layoutX="223.0" layoutY="188.0" mnemonicParsing="false" onAction="#writing6" prefHeight="26.0" prefWidth="43.0" text="6" />
+      <Button fx:id="THREE" layoutX="223.0" layoutY="148.0" mnemonicParsing="false" onAction="#writing3" prefHeight="26.0" prefWidth="43.0" text="3" />
+      <Button fx:id="TWO" layoutX="166.0" layoutY="148.0" mnemonicParsing="false" onAction="#writing2" prefHeight="26.0" prefWidth="43.0" text="2" />
+      <Button fx:id="ONE" layoutX="105.0" layoutY="148.0" mnemonicParsing="false" onAction="#writing1" prefHeight="26.0" prefWidth="43.0" text="1" />
+      <Button fx:id="clear" layoutX="223.0" layoutY="104.0" mnemonicParsing="false" onAction="#clearExpression" prefHeight="26.0" prefWidth="43.0" text="Clear" />
+      <Button fx:id="ק" layoutX="45.0" layoutY="20.0" mnemonicParsing="false" onAction="#press" prefHeight="26.0" prefWidth="43.0" text="ק" />
+   </children>
+</AnchorPane>
