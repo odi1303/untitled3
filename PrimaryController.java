@@ -105,6 +105,9 @@ public class PrimaryController {
 
     private String base="";
     private String exp="";
+    public String getExp(){
+        return exp;
+    }
     @FXML
     void initialize(){
         assert choseBase!=null:"fx:id=\"choseBase\" was not injected: check your FXML file 'primary.fxml'.";
@@ -531,4 +534,5 @@ public class PrimaryController {
         exp=exp+"^";
         expression.setText(exp);
     }
+
 }

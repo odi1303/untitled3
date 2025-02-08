@@ -3,8 +3,12 @@ package org.example;
 import java.util.regex.Pattern;
 
 public class ArithmeticApp {
-    public static String main(int base, String expression) {
-        expression=expression.replace(" ","");
+    public String expression="";
+    public String getExpression() {
+        return expression;
+    }
+    public String main(int base, String expression1) {
+        expression=expression1.replace(" ","");
         // Check for division by 0
         if (base != 2) {
             if (expression.contains("/0")) {
